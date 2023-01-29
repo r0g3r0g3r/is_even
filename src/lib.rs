@@ -1,9 +1,5 @@
 pub fn is_even(number: i64) -> bool {
-    if number % 2 == 0 {
-        true
-    } else {
-        false
-    }
+    if number % 2 == 0 { true } else { false }
 } 
 
 #[cfg(test)]
